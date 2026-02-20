@@ -1,0 +1,26 @@
+{
+  "name": "neural-chatbot-railway-api",
+  "version": "1.0.0",
+  "description": "Railway API backend for Neural Chatbot v5.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["chatbot", "neural-network", "api", "roblox"],
+  "author": "Neural Chatbot",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
